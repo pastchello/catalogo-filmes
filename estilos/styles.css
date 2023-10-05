@@ -1,0 +1,40 @@
+/* Arquivo para todas as Medias */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+/* Para Mobile */
+/* Tela: 600px até 768px */
+
+
+.containerFilmes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+
+.cartazFilme {
+    width: 300px;
+    border: 3px solid #535151;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.descricao {
+    border-radius: 10px;
+    font-size: larger;
+    width: 300px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 127, 80, 0.534);
+    
+}

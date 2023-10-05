@@ -1,0 +1,26 @@
+/* Para Tablet */
+/* Tela: 768px até 992px */
+
+
+.containerFilmes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cxfilmes img {
+    max-width: 300px;
+    border: 3px solid #535151;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.descricao {
+    border-radius: 10px;
+    font-size: larger;
+    max-width: 300px;
+    margin-top: 1px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 127, 80, 0.534);
+    
+}
